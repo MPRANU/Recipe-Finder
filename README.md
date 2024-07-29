@@ -2,7 +2,7 @@
 Recipe Finder Application
 
 # Description: 
-Develop an application where users can search for recipes based on ingredients they have at home. This app helps users make the most out of the ingredients they already have, reducing food waste and simplifying meal planning.
+Develop an application where users can search for recipes based on ingredients they have at home. This application helps users make the most out of the ingredients they already have, reducing food waste and simplifying meal planning.
 
 # Key Features:
 1)Ingredient Search: 
@@ -19,14 +19,14 @@ Develop an application where users can search for recipes based on ingredients t
 
 3)User Ratings and Comments:
 - Allow users to rate recipes and leave comments.
---Display average ratings and user reviews.
+- Display average ratings and user reviews.
 
 4)User Authentication:
 - Implement user registration and login.
 - Personalize the experience by saving favorite recipes and search history.
 
 5)Responsive Design:
-- Ensure the app works well on both desktop and mobile devices.
+- Ensure the application works well on both desktop and mobile devices.
 - Use responsive design techniques to provide a seamless user experience.
 
 6)Filtering and Sorting:
@@ -71,21 +71,21 @@ Backend (optional):
 
 Ingredient Search:
 - User inputs a list of ingredients.
-- The app sends a request to the external recipe API, retrieving recipes that match the ingredients.
+- The application sends a request to the external recipe API, retrieving recipes that match the ingredients.
 - Display the search results as a list of recipe cards.
 
 View Recipe Details:
 - User clicks on a recipe card.
-- The app navigates to a detailed view of the selected recipe, displaying all relevant information.
+- The application navigates to a detailed view of the selected recipe, displaying all relevant information.
 
 Save Favorite Recipes:
 - User clicks a "Save to Favorites" button on a recipe detail page.
-- The app saves the recipe to the user's profile.
+- The application saves the recipe to the user's profile.
 - Users can view all saved recipes on the Favorites page.
 
 User Ratings and Comments:
 - The user rates a recipe and leaves a comment.
-- The app updates the recipe's rating and displays the new comment.
+- The application updates the recipe's rating and displays the new comment.
 
 # Additional Features:
 1. Meal Planner: Allow users to plan their weekly meals by adding recipes to a meal planner.
