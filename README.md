@@ -40,32 +40,32 @@ Develop an application where users can search for recipes based on ingredients t
 # Technologies:
 
 Frontend:
-React.js: For building the user interface.
-React Router: For handling navigation and routing.
-Axios: For making API requests.
-Styled Components or CSS Modules: For styling the application.
-Formik and Yup: For handling forms and validation.
+- React.js: For building the user interface.
+- React Router: For handling navigation and routing.
+- Axios: For making API requests.
+- Styled Components or CSS Modules: For styling the application.
+- Formik and Yup: For handling forms and validation.
 
 Backend (if creating your API):
-Node.js with Express.js: For creating the backend server.
-MongoDB or PostgreSQL: For storing user data and favorite recipes.
-JWT (JSON Web Tokens): For user authentication and authorization.
+- Node.js with Express.js: For creating the backend server.
+- MongoDB or PostgreSQL: For storing user data and favorite recipes.
+- JWT (JSON Web Tokens): For user authentication and authorization.
 
 External APIs:
-Spoonacular API or Edamam API: For fetching recipe data based on ingredients.
+- Spoonacular API or Edamam API: For fetching recipe data based on ingredients.
 
 # Project Structure:
 
 Frontend:
-Components: Create reusable components such as Header, Footer, RecipeCard, IngredientSearch, RecipeDetail, FavoriteRecipes, etc.
-Pages: Structure the application into different pages such as Home, SearchResults, RecipeDetail, Favorites, Profile, etc.
-State Management: Use Context API or Redux to manage global state (e.g., user authentication, favorite recipes).
-API Integration: Create a service layer for making API requests to fetch recipe data.
+1. Components: Create reusable components such as Header, Footer, RecipeCard, IngredientSearch, RecipeDetail, FavoriteRecipes, etc.
+2. Pages: Structure the application into different pages such as Home, SearchResults, RecipeDetail, Favorites, Profile, etc.
+3. State Management: Use Context API or Redux to manage global state (e.g., user authentication, favorite recipes).
+4. API Integration: Create a service layer for making API requests to fetch recipe data.
 
 Backend (optional):
-User Management: Implement user registration, login, and profile management.
-Favorite Recipes: Create endpoints to save, retrieve, and delete favorite recipes.
-Search Functionality: Create endpoints to handle recipe search requests and integrate with the external recipe API.
+1. User Management: Implement user registration, login, and profile management.
+2. Favorite Recipes: Create endpoints to save, retrieve, and delete favorite recipes.
+3. Search Functionality: Create endpoints to handle recipe search requests and integrate with the external recipe API.
 
 # Example Workflow:
 
