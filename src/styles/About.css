@@ -1,0 +1,75 @@
+/* About Page Container */
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  /* Content Box */
+  .about-content {
+    max-width: 700px;
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Title */
+  .about-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitles */
+  .about-subtitle {
+    font-size: 24px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+  /* Paragraph Text */
+  .about-description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* List Styling */
+  .about-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-list li {
+    font-size: 16px;
+    color: #333;
+    background: #e7f0ff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-content {
+      padding: 20px;
+    }
+  
+    .about-title {
+      font-size: 28px;
+    }
+  
+    .about-subtitle {
+      font-size: 22px;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+/* Start Cooking Page Styles */
+.start-cooking-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .ingredients-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .ingredients-form input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .ingredients-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .ingredients-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .cta-container {
+    margin-top: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+  }
+  
